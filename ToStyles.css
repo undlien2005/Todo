@@ -1,0 +1,81 @@
+
+
+    button:hover{
+        box-shadow: 0 0 0 0.15rem #5ceace;
+    }
+
+        p:hover {
+            background:  rgb(79, 240, 76);
+          }
+
+        p.checked {
+            background:  rgb(4, 255, 0);
+            color:  rgb(4, 255, 0);
+            
+        }
+        p.checked {
+            background:  rgb(100, 25, 50);
+            color:  rgb(100, 25, 50);
+            
+        }
+
+            .container {
+               
+                text-align: center;
+                margin-left: auto;
+            }
+            
+            #inputField {
+                width: 300px;
+                height: 46px;
+                border-width: 0;
+                border: 1px solid #5ceace;
+                outline: none;
+                font-size: 25px;
+                vertical-align: middle;
+            }
+            
+            #addToDo {
+                height: 50px;
+                width: 50px;
+                border: 1px solid #5ceace;
+                vertical-align: middle;
+                font-size: 30px;
+                background-color: #E8A87C;
+            }
+            
+            .paragraph-styling {
+                margin: 10px;
+                widows: 100px;
+                size: 100px;
+                cursor: pointer;
+                font-size: 40px;
+                user-select: none;
+                
+            }
+            
+            .to-dos {
+                margin-top: 25px;
+              word-break: break-all;
+              text-overflow: ellipsis;
+            }
+body{
+    size: 100px;
+    background: #85DCBA;
+
+font-family: 'Allan';font-size: 22px;
+
+}
+
+#todo{
+   text-align: center;
+   color:#E27D60;
+   size: 100px;
+   
+   user-select:none;
+}
+p{box-shadow: #41B3A3 0px 1px 4px, #41B3A3 0px 0px 0px 3px; user-select: none;}
+
+#title{
+    
+}
