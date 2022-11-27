@@ -10,3 +10,17 @@ I dette prosjektet har jeg laget en todo liste, der du kan legge til oppgaver, d
 
 hvorfor
 Det er altid fint med en todo liste, og så er det for å øve seg på koding, og fordi det er en skoleoppgave.
+
+Denne koden gjør at du kan trykke enter for å legge til en oppgave
+<script src="js/tmpl.min.js">
+JS
+var input = document.getElementById("inputField");
+input.addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {  
+      event.preventDefault();
+      document.getElementById("addToDo").click();
+    }
+     
+  
+});
+  </script>
