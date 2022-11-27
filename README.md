@@ -49,3 +49,4 @@ Denne koden fjerner en oppgave når du dobbelklikker, og den fjerner oppgaven fr
           document.getElementById("complete").innerHTML = clicks;
 
 
+Jeg valgte selv å ikke ha en linje igjennom teksten
